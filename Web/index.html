@@ -23,6 +23,13 @@
     <script src="js/modernizr.custom.js"></script>
 
     <script src='https://www.google.com/recaptcha/api.js'></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_uyLVTmVps5T9THZorWCSm");
+        })();
+    </script>
 </head>
 
 <body class="material-template">
@@ -1041,14 +1048,14 @@
                     <section class="pt-page" data-id="contact">
                         <div class="section-inner custom-page-content">
                             <div class="page-header color-1">
-                                <h2>Contact</h2>
+                                <h2>İletişim</h2>
                             </div>
                             <div class="page-content">
 
                                 <div class="row">
                                     <div class="col-sm-6 col-md-6">
                                         <div class="block-title">
-                                            <h3><span>İletişime</span> Geç</h3>
+                                            <h3>İletişime <span>Geç</span></h3>
                                         </div>
                                         <!-- Google Map -->
                                         <div id="map" class="map"></div>
@@ -1121,9 +1128,9 @@
                                                     <div class="help-block with-errors"></div>
                                                 </div>
 
-                                                <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI"></div>
+                                                <!-- <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI"></div> -->
 
-                                                <input type="submit" class="button btn-send" value="Send message">
+                                                <input type="submit" class="button btn-send" onclick="sendMail()" value="Mesajınızı Gönderin">
                                             </div>
                                         </form>
                                     </div>
@@ -1140,7 +1147,7 @@
         <!-- /Main Content -->
     </div>
     <footer>
-        <div class="copyrights">© 2017 All rights reserved. Material template by <a href="https://www.eminkartci.com/">Emin Kartcı</a> & <a href="https://www.durmuskartci.com/">Durmuş Kartcı</a></div>
+        <div class="copyrights">© 2021 Bütün Hakları Saklıdır. Material template by <a href="https://www.eminkartci.com/">Emin Kartcı</a> & <a href="https://www.durmuskartci.com/">Durmuş Kartcı</a></div>
     </footer>
 
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -1152,10 +1159,11 @@
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
     <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
     <script type="text/javascript" src="js/jquery.hoverdir.js"></script>
-    <!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR-API-KEY"></script>-->
+    <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR-API-KEY"></script> -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
     <script type="text/javascript" src="js/jquery.googlemap.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/contact-mail.js"></script>
 </body>
 
 </html>
