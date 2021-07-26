@@ -4,7 +4,7 @@ function sendMail() {
         let tempParams = {
             from_name: document.getElementById("form_name").value,
             from_mail: document.getElementById("form_email").value,
-            to_mail: "durmusikartci@gmail.com",
+            to_mail: "",
             message: document.getElementById("form_message").value
         }
         console.log(tempParams)
