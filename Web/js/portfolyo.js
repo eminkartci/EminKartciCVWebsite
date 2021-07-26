@@ -20,3 +20,5 @@ add_project("media", "Medya", "./portfolyo/MathCountingExercise", "./images/port
 add_project("media", "Medya", "https://www.nazarmuzik.com/", "./images/portfolio/NazarMuzik.png", "Nazar Müzik Website")
 add_project("media", "Medya", "https://www.shefly.com/", "./images/portfolio/SheFly.png", "SheFly Website")
 add_project("media", "Medya", "https://www.mehmetkilvan.com/", "./images/portfolio/MehmetKilvan.png", "Mehmet Kilvan Website")
+add_project("media", "Medya", "https://traform-platofrmu.herokuapp.com/", "", "Traform - Trafolarda Verimlilik Projesi")
+add_project("media", "Medya", "https://evfuture.ameandanismanlik.com", "", "EV Future - Elektrikli Araç Analizi")
