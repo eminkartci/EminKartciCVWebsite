@@ -17,3 +17,6 @@ function add_project(category, categoryName, projectLink, imgSrc, projectTitle) 
 
 add_project("media", "Medya", "./portfolyo/DoralpWebsite", "./images/portfolio/DoralpWebsite.png", "Doralp Website")
 add_project("media", "Medya", "./portfolyo/MathCountingExercise", "./images/portfolio/MathProblem.png", "Math Counting Exercise")
+add_project("media", "Medya", "https://www.nazarmuzik.com/", "./images/portfolio/NazarMuzik.png", "Nazar Müzik Website")
+add_project("media", "Medya", "https://www.shefly.com/", "./images/portfolio/SheFly.png", "SheFly Website")
+add_project("media", "Medya", "https://www.mehmetkilvan.com/", "./images/portfolio/MehmetKilvan.png", "Mehmet Kilvan Website")
