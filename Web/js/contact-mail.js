@@ -7,8 +7,7 @@ function sendMail() {
             to_mail: "emin.kartci@ozu.edu.tr",
             message: document.getElementById("form_message").value
         }
-        console.log(tempParams)
-        emailjs.send("service_880b6o7", "template_0kcpfca", tempParams).then(function(res) { console.log("succes : " + res.status) })
+        emailjs.send("service_880b6o7", "template_0kcpfca", tempParams).then(function(res) {document.getElementById("mail_gonder_button").disabled = true})
     } else {
         console.log("Mesajınız gönderilemedi")
     }
