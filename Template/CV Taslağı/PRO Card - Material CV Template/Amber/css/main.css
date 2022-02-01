@@ -1217,6 +1217,7 @@ body > footer .copyrights {
 
 .client-block img {
   max-width: 80px;
+  height: 100px;
 }
 /* /Clients */
 
