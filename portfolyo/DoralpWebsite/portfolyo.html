@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="robots" content="" />
+    <meta name="description" content="" />
+    <meta property="og:title" content="Constructzilla - Construction Template" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="" />
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- FAVICONS ICON -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+
+    <!-- PAGE TITLE HERE -->
+    <title>Constructzilla - Construction Template</title>
+
+    <!-- MOBILE SPECIFIC -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--[if lt IE 9]>
+	<script src="js/html5shiv.min.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" type="text/css" href="css/plugins.css">
+    <link rel="stylesheet" type="text/css" href="css/style.min.css">
+    <link class="skin" rel="stylesheet" type="text/css" href="css/skin/skin-1.css">
+    <link rel="stylesheet" type="text/css" href="css/templete.min.css">
+
+</head>
+
+<body id="bg" onload="include('./ortak/header.html','#header');include('./ortak/footer.html','#footer')">
+    <div id="loading-area"></div>
+    <div class="page-wraper">
+        <!-- header -->
+        <div id="header"></div>
+        <!-- header End -->
+        <!-- Content -->
+        <div class="page-content">
+            <!-- inner page banner -->
+            <div class="dez-bnr-inr overlay-black-middle" style="background-image:url(images/main-slider/slide_background_1.jpeg);">
+                <div class="container">
+                    <div class="dez-bnr-inr-entry">
+                        <h1 class="text-white">Portfolyo</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- inner page banner END -->
+            <!-- Breadcrumb row -->
+            <div class="breadcrumb-row">
+                <div class="container">
+                    <ul class="list-inline">
+                        <li><a href="#">Ana Sayfa</a></li>
+                        <li>Portfolyo</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Breadcrumb row END -->
+            <!-- contact area -->
+            <div class="content-area">
+                <!-- Portfolio -->
+                <div class="container">
+                    <div class="site-filters clearfix center  m-b40">
+                        <ul class="filters" data-toggle="buttons">
+                            <li data-filter="devam" class="btn">
+                                <input type="radio">
+                                <a href="#" class="site-button-secondry button-skew"><span>Devam Eden Projeler</span></a> </li>
+                            <li data-filter="sanayi" class="btn">
+                                <input type="radio">
+                                <a href="#" class="site-button-secondry button-skew"><span>Sanayi Yapılar</span></a> </li>
+                            <li data-filter="lojistik" class="btn">
+                                <input type="radio">
+                                <a href="#" class="site-button-secondry button-skew"><span>Lojistik Depolar</span></a> </li>
+                            <li data-filter="spor" class="btn">
+                                <input type="radio">
+                                <a href="#" class="site-button-secondry button-skew"><span>Stadyum / Spor Salonu</span></a> </li>
+                            <li data-filter="enerji" class="btn">
+                                <input type="radio">
+                                <a href="#" class="site-button-secondry button-skew"><span>Enerji Santral Yapıları</span></a> </li>
+                            <li data-filter="market" class="btn">
+                                <input type="radio">
+                                <a href="#" class="site-button-secondry button-skew"><span>AVM / Market</span></a> </li>
+                        </ul>
+                    </div>
+                    <div class="clearfix">
+                        <!-- devam && sanayi && lojistik && spor && enerji && market-->
+                        <ul id="masonry" class="row dez-gallery-listing gallery-grid-4 m-b0 mfp-gallery">
+                            <!-- portfolyo_projects.js File !! -->
+                        </ul>
+                        </div>
+                        <!-- Pagination start -->
+                        <!-- <div class="pagination-bx clearfix">
+                            <ul class="pagination">
+                                <li class="previous"><a href="#"><i class="fa fa-angle-double-left"></i></a></li>
+                                <li class="active"><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li class="next"><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
+                            </ul>
+                        </div> -->
+                        <!-- Pagination END -->
+                    </div>
+                    <!-- Portfolio END-->
+                </div>
+                <!-- contact area  END -->
+            </div>
+            <!-- Content END-->
+            <div id="footer"> </div>
+            
+        </div>
+        <!-- JavaScript  files ========================================= -->
+        <script src="js/jquery.min.js"></script>
+        <!-- JQUERY.MIN JS -->
+        <script src="js/include.js"></script>
+        <!-- INCLUDE JS -->
+        <script src="plugins/bootstrap/js/popper.min.js"></script>
+        <!-- BOOTSTRAP.MIN JS -->
+        <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+        <!-- BOOTSTRAP.MIN JS -->
+        <script src="plugins/bootstrap-select/bootstrap-select.min.js"></script>
+        <!-- FORM JS -->
+        <script src="plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script>
+        <!-- FORM JS -->
+        <script src="plugins/magnific-popup/magnific-popup.js"></script>
+        <!-- MAGNIFIC POPUP JS -->
+        <script src="plugins/counter/waypoints-min.js"></script>
+        <!-- WAYPOINTS JS -->
+        <script src="plugins/counter/counterup.min.js"></script>
+        <!-- COUNTERUP JS -->
+        <script src="plugins/imagesloaded/imagesloaded.js"></script>
+        <!-- IMAGESLOADED -->
+        <script src="plugins/masonry/masonry-3.1.4.js"></script>
+        <!-- MASONRY -->
+        <script src="plugins/masonry/masonry.filter.js"></script>
+        <!-- MASONRY -->
+        <script src="plugins/owl-carousel/owl.carousel.js"></script>
+        <!-- OWL SLIDER -->
+        <script src="js/custom.min.js"></script>
+        <!-- CUSTOM FUCTIONS  -->
+        <script src="js/dz.carousel.min.js"></script>
+        <!-- SORTCODE FUCTIONS  -->
+        <script src="js/dz.ajax.js"></script>
+        <!-- CONTACT JS  -->
+
+        <!-- Projects Insert -->
+        <script src="js/portfolyo_projects.js"></script>
+
+
+</body>
+
+</html>
